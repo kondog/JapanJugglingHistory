@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>日本ジャグリングの歴史</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .year-block {
+      margin-bottom: 1.5em;
+      padding: 1em;
+      border-left: 5px solid #007acc;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .year {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #007acc;
+    }
+    .description {
+      margin-top: 0.5em;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>日本ジャグリングの歴史</h1>
+  <div id="timeline"></div>
+
+  <script>
+    const yamlUrl = 'https://raw.githubusercontent.com/kondog/JapanJugglingHistory/main/juggling_history_japan.yaml';
+
+    fetch(yamlUrl)
+      .then(response => response.text())
+      .then(yamlText => {
+        const data = jsyaml.load(yamlText);
+        const container = document.getElementById('timeline');
+
+        // 年順に並べ替え（必要なら）
+        data.history.sort((a, b) => a.year - b.year);
+
+        data.history.forEach(entry => {
+          const block = document.createElement('div');
+          block.className = 'year-block';
+
+          const year = document.createElement('div');
+          year.className = 'year';
+          year.textContent = `${entry.year}年`;
+
+          const desc = document.createElement('div');
+          desc.className = 'description';
+          desc.textContent = entry.description;
+
+          block.appendChild(year);
+          block.appendChild(desc);
+          container.appendChild(block);
+        });
+      })
+      .catch(error => {
+        document.getElementById('timeline').textContent = 'データの読み込みに失敗しました。';
+        console.error(error);
+      });
+  </script>
+</body>
+</html>
