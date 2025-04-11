@@ -37,19 +37,20 @@
   <h1>日本ジャグリングの歴史</h1>
   <div id="timeline"></div>
 
-  <script>
+<script>
     const yamlUrl = 'https://raw.githubusercontent.com/kondog/JapanJugglingHistory/main/juggling_history_japan.yaml';
 
     fetch(yamlUrl)
       .then(response => response.text())
       .then(yamlText => {
         const data = jsyaml.load(yamlText);
+        const history = data.juggling_history_japan || [];
+
         const container = document.getElementById('timeline');
 
-        // 年順に並べ替え（必要なら）
-//        data.history.sort((a, b) => a.year - b.year);
+        history.sort((a, b) => a.year - b.year);
 
-        data.juggling_history_japan.forEach(entry => {
+        history.forEach(entry => {
           const block = document.createElement('div');
           block.className = 'year-block';
 
@@ -57,12 +58,23 @@
           year.className = 'year';
           year.textContent = `${entry.year}年`;
 
-          const desc = document.createElement('div');
-          desc.className = 'description';
-          desc.textContent = entry.description;
-
           block.appendChild(year);
-          block.appendChild(desc);
+
+          (entry.events || []).forEach(event => {
+            const ev = document.createElement('div');
+            ev.className = 'event';
+
+            let label = '';
+            if (event.date) {
+              label = `${event.date}：`;
+            } else if (event.date_range) {
+              label = `${event.date_range}：`;
+            }
+
+            ev.innerHTML = `<span class="date">${label}</span>${event.description}`;
+            block.appendChild(ev);
+          });
+
           container.appendChild(block);
         });
       })
