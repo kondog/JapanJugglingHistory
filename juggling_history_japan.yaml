@@ -1,0 +1,131 @@
+juggling_history_japan:
+- events:
+  - description: コカコーラが景品に「アメリカン・ヨーヨー」を付け、全国的にヨーヨーブームが発生。
+  year: 1975
+- events:
+  - description: 「大須大道町人祭」（名古屋）第1回目が開催される。
+  year: 1978
+- events:
+  - description: IJAサンタバーバラ・フェスティバルに、「日本ジャグラーズ協会」を名乗る日本人のグループ（約8名）が参加。
+  year: 1982
+- events:
+  - date: 1月4日
+    description: 横浜・野毛に「むごん劇かんぱにい」設立（IKUO三橋氏）。
+  year: 1984
+- events:
+  - description: 「野毛大道芸」（横浜）第1回目が開催。
+  year: 1986
+- events:
+  - date_range: 10月〜1989年3月
+    description: 海老一染之助・染太郎兄弟が「お染ブラザーズ」としてTV出演。
+  year: 1988
+- events:
+  - date: 9月1日
+    description: 「クラウン・カレッジ・ジャパン」開校（1992年閉校）。
+  year: 1989
+- events:
+  - description: 北里大学相模原キャンパスに「北里大学ジャグリング・クラブ」創立。
+  year: 1990
+- events:
+  - description: 天保山ワールドパフォーマンスフェスティバル第1回（大阪）。
+  - description: 「日本のお手玉の会」発足。
+  - date: 10月31日
+    description: インターネット・ニューズグループ rec.juggling 設立。
+  year: 1991
+- events:
+  - description: 大阪城前・原宿・新宿などでパフォーマー出現（外国人中心）。
+  - date: 4月11日
+    description: NIFTY-SERVE「FMAGIC」に「ボードビル芸の部屋」開設。
+  - date_range: 5月〜8月
+    description: シルク・ド・ソレイユ「ファシナシオン」日本公演。
+  - date: 11月
+    description: 静岡市で「静岡大道芸ワールドカップ」第1回。
+  year: 1992
+- events:
+  - description: 静岡で「WAPS」発足。東京大学で「マラバリスタ」創設（初代部長：中嶋潤一郎氏）。
+  - description: マサヒロ水野氏がIJAで People's Choice Award 受賞。
+  - description: 神戸で「モザイク大道芸人コンテスト」第1回。
+  year: 1993
+- events:
+  - description: 筑波大付属駒場中高にジャグリング同好会。
+  - description: 「科学朝日」でサイトスワップ解説。
+  - description: JIS（Juggling Information Service）開設。
+  - description: 鏡味小仙（現・丸一仙翁）氏がIJAでFounder's Award受賞。
+  - description: 東急ハンズで海外製ディアボロ販売開始。
+  year: 1994
+- events:
+  - description: JuggleMaster（松岡顕 作）リリース。
+  - description: ジャグリング・メーリングリスト開設（KABAサーバー）。
+  - description: 綾瀬市で市民サークルJAM発足。
+  - description: 太神楽研修制度が国立劇場で開始。
+  year: 1995
+- events:
+  - description: 初の大規模オフ会＠代々木公園。
+  - description: ジャグリングクラブDEBUT（のちJUG）発足（大阪）。
+  - description: IJA Webサイト開設。
+  year: 1996
+- events:
+  - description: 横浜大道芸倶楽部（YDC）発足。
+  - description: 「しあわせ家族計画」でジャグリングがTVに。
+  - description: ハイパーヨーヨー（バンダイ）発売。
+  year: 1997
+- events:
+  - description: ジャグリングショップ・ナランハ営業開始。
+  - description: 大阪大学「Patio」、京都「ジャグリングドーナツ」など多数のサークル誕生。
+  - description: Kit Summersワークショップ開催。
+  - description: ジャグラーズ通信（のちジャグパル）創刊。
+  year: 1998
+- events:
+  - description: ハイパーディアブロ発売。
+  - description: JJA設立（任意団体）。
+  - description: NPO法人日本ジャグリング協会 設立。
+  - description: 第1回Japan Juggling Festival（JJF）開催。
+  - description: 「TVチャンピオン ジャグラー王選手権」放映。
+  year: 1999
+- events:
+  - description: JJF2000（第2回）開催＠京都。
+  - description: ジャグリングドーナツライブ開始。
+  - description: 日本ジャグリング協会会報「Shall We Juggle?」創刊。
+  year: 2000
+- events:
+  - description: 匿名掲示板「2ちゃんねる」にスレッド出現。
+  - description: IJAコンペで日本人が初決勝進出。
+  - description: JJF2001開催＠愛知。
+  - description: 原宿ホコ天廃止。
+  - description: Renegade Juggling Japan開業。
+  year: 2001
+- events:
+  - description: 「ヘブンアーティスト制度」発表。
+  - description: JJF2002＠川崎。
+  - description: 矢部亮がIJAジュニア部門優勝。
+  - description: 大道芸支援協会「そら」設立。
+  year: 2002
+- events:
+  - description: ブログ普及。
+  - description: 「TVチャンピオン」第2回放映。
+  - description: World Juggling Dayのイベント定着。
+  - description: JJF2003＠仙台。
+  - description: 第1回三玉フェス開催。
+  year: 2003
+- events:
+  - description: Sean McKinney氏が逝去。
+  - description: JJF2004＠名古屋。
+  - description: 矢部亮がIJA個人部門で優勝。
+  - description: Fanta-Stick（棒ものフェス）第1回開催。
+  - description: シルク「KA」で高橋典子氏が出演。
+  year: 2004
+- events:
+  - description: YouTube開始。
+  - description: 大阪パフォーマーライセンス制度。
+  - description: JJF2005＠大阪。
+  - description: 全国統一カスケード大会（第1回）。
+  year: 2005
+- events:
+  - description: RealJuggling、堀の外のジャグリングなど舞台イベント充実。
+  - description: JJF2006＠国立オリンピック記念青少年センター。
+  - description: 日本人ジャグラーがIJA, WJFで多数入賞。
+  year: 2006
+- events:
+  - date: 2月7日〜
+    description: シルク・ド・ソレイユ「ドラリオン」日本公演開始。
+  year: 2007
